@@ -10,7 +10,7 @@ function verificar(){
     areaPlacar = document.getElementById('selectPlacar')
 
      
-    // Ao Acertar ou no GAME OVER, colocar o input e o botão
+    // Ao Acertar ou GAME OVER, bloquear o input e o botão
 
 
 
@@ -62,9 +62,3 @@ function verificar(){
         }
       }    
 }
-
-/*
-    -Colocar tentativas, armazenando os dados no array.
-    -Criar tabela com tentativas e valores.
-    -Quando atingir as tentativas, bloquear botão.
-*/
