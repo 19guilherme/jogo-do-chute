@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0d1b2a;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: #0f4c5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #00afb9;
+}
+
+.container{
+  background-color: #dce7e7ce;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.61) 0px 2px 10px;
+  text-align: center;
+}
+
+h1{
+  font-size: 28px;
+}
+
+input{
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+input#verificar{
+  background-color: #142c47;
+  color: #038e96;
+  width: 30%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+input#verificar:hover{
+  background-color: #0d1b2a;
+  color: #05d2dd;
+  transition: .3s ease;
+}
+
+p{
+  margin-bottom: 7px;
+}
+
+strong{
+  color: #038e96;
+}
+
+#selectPlacar{
+  overflow: hidden;
+  border: none;
+  padding: 7px;
+  padding-bottom: 23px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#selectPlacar option{
+  margin-bottom: 1px ;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: #038e96;
+}
+
+@media (max-width: 500px){
+  .container{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.61) 0px 2px 10px;
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 20px;
+  }
+
+  input{
+    border: none;
+    padding: 3px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 15px 0;
+    width: 40%;
+  }
+  
+  input#verificar{
+    background-color: #142c47;
+    color: #038e96;
+    width: 25%;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  #selectPlacar{
+    overflow: hidden;
+    border: none;
+    padding: 5px;
+    padding-bottom: 23px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+}
