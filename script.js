@@ -35,8 +35,8 @@ function verificar(){
         // });
 
     } else {
-        if( numeroChute.value.length == 0 || numeroChute.value < 0 || numeroChute.value > 100){
-          window.alert('Digite algum valor entre 0 e 100 !')
+        if( numeroChute.value.length == 0 || numeroChute.value < 0 || numeroChute.value > 50){
+          window.alert('Digite algum valor entre 0 e 50 !')
         } 
         else {
           if(numeroChuteFormatado > numeroAleatorio){
